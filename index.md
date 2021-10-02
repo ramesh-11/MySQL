@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to MySQL tutorial
 
 You can use the [editor on GitHub](https://github.com/ramesh-11/SQL/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
