@@ -47,4 +47,7 @@ select first_name, last_name, "Physician" as "Role" from physicians;
 
 select first_name, last_name, allergies from patients where allergies in('Penicillin','Morphine')
 order by allergies, first_name, last_name;
+
+--Hard Questions
+
 --https://www.sql-practice.com/
