@@ -58,12 +58,12 @@ AND, OR, NOT
 - Drop Table
 - Alter Table
 - Constraints
-- Not Null
-- Unique
-- Primary Key
-- Foreign Key
-- Check
-- Default
+  - Not Null
+  - Unique
+  - Primary Key
+  - Foreign Key
+  - Check
+  - Default
 - Auto Increment
 - Index
 ## Functions:
