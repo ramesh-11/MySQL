@@ -26,14 +26,14 @@ AND, OR, NOT
   - +, -, x, /, %
 - Set operators
   - UNION, MINUS, INTERSECT
-- Aliases
-  - SELECT col1 AS name FROM table_name AS tname
 - Union
   - UNION (without duplicate rows)
     - SELECT column_name(s) FROM table1 UNION SELECT column_name(s) FROM table2
   - UNION ALL (with duplicate rows)
     - SELECT column_name(s) FROM table1 UNION ALL SELECT column_name(s) FROM table2
     - Note: The column names in the result-set are usually equal to the column names in the first SELECT statement.
+- Aliases
+  - SELECT col1 AS name FROM table_name AS tname
 - Order By
   - SELECT column1, column2, ... FROM table_name ORDER BY column1, column2, ... ASC|DESC
 - Group By
@@ -54,9 +54,27 @@ AND, OR, NOT
   - IS NULL, IS NOT NULL
 ## Database:
 - Data Types
+  - CHAR(n)
+  - VARCHAR(n)
+  - TEXT(n)
+  - INT or INTEGER
+  - FLOAT(p)
+  - DECIMAL(n,d)
+  - BOOL or BOOLEAN
+  - DATE
 - Create Table
+  - CREATE DATABASE database_name;
+  - CREATE TABLE table_name(col1 datatype(size),.......);
+  - CREATE TABLE new_table_name AS SELECT column1, column2,... FROM existing_table_name WHERE ....;
 - Drop Table
+  - DROP TABLE table_name;
+  - DROP DATABASE database_name;
 - Alter Table
+  - ALTER TABLE table_name ADD column_name datatype;
+  - ALTER TABLE table_name DROP COLUMN column_name;
+  - ALTER TABLE table_name MODIFY COLUMN column_name datatype;
+  - ALTER TABLE table_name RENAME TO new_table_name;
+  - ALTER TABLE table_name RENAME COLUMN old_column_name TO new_column_name;
 - Constraints
   - Not Null
   - Unique
